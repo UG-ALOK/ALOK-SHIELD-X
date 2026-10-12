@@ -1,4 +1,4 @@
-# UG ALOK — ULTIMATE SECURITY TOOLKIT
+# UG ALOK — Kit
 
 **Developer: UG ALOK** · Version 1.0.0
 
@@ -28,8 +28,8 @@ No third-party packages, no web server, no `package.json`. Designed for Android 
 
 ```sh
 pkg update && pkg install nodejs 
-git clone
-cd 
+git clone https://github.com/UG-ALOK/ALOK-SHIELD-X.git
+cd ALOK-SHIELD-X
 sh install.sh
 node main.js
 ```
@@ -97,6 +97,6 @@ You are asked each time before the full URL is sent to Google. This path require
 
 ## Responsible use
 🙏 **Disclaimer**
-Use these tools only on devices, networks, files and websites that you own or are explicitly authorized to test. The developer provides no warranty and is not responsible for misuse. Results are informational and do not replace professional security review.
+**Use these tools only on devices, networks, files and websites that you own or are explicitly authorized to test. The developer provides no warranty and is not responsible for misuse. Results are informational and do not replace professional security review**
 
 **Developer: UG ALOK**
