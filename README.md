@@ -24,8 +24,10 @@ No third-party packages, no web server, no `package.json`. Designed for Android 
 - Node.js **18 or newer** (uses built-in `fetch`).
 - Nothing else. No npm install.
 
-## Termux installation
-
+**Termux installation
+```sh
+pip install requests
+```
 ```sh
 pkg update && pkg install nodejs
 ```
@@ -42,9 +44,9 @@ sh install.sh
 node main.js
 ```
 
-Desktop (Linux/macOS/WSL): install Node.js 18+, extract the ZIP, run `sh install.sh`, then `node main.js`.
+**Desktop (Linux/macOS/WSL): install Node.js 18+, extract the ZIP, run `sh install.sh`, then `node main.js**
 
-`install.sh` only checks your environment (Node present and ≥ 18, `main.js` exists, syntax OK) and sets the executable bit. It does not install packages, change system settings, or need root.
+`install.sh` only checks your environment (Node present and ≥ 18, `main.js` exists, syntax OK) and sets the executable bit. It does not install packages, change system settings, or need root**
 
 ## Usage
 
