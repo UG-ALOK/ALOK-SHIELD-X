@@ -27,10 +27,18 @@ No third-party packages, no web server, no `package.json`. Designed for Android 
 ## Termux installation
 
 ```sh
-pkg update && pkg install nodejs 
+pkg update && pkg install nodejs
+```
+```sh
 git clone https://github.com/UG-ALOK/ALOK-SHIELD-X.git
+```
+```sh
 cd ALOK-SHIELD-X
+```
+```sh
 sh install.sh
+```
+```sh
 node main.js
 ```
 
